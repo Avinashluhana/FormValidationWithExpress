@@ -12,4 +12,7 @@ app.get("/help", (req, res) => {
   res.send("Help page");
 });
 
+app.get("/login", (req, res) => {
+  res.send("login page");
+});
 app.listen();
