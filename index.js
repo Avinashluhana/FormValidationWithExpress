@@ -18,4 +18,7 @@ app.get("/login", (req, res) => {
 app.get("/signup", (req, res) => {
   res.send("Sign up page");
 });
+app.get("/contact", (req, res) => {
+  res.send("Contact us page");
+});
 app.listen();
