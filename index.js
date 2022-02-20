@@ -21,4 +21,7 @@ app.get("/signup", (req, res) => {
 app.get("/contact", (req, res) => {
   res.send("Contact us page");
 });
+app.get("/send", (req, res) => {
+  res.send("send us page");
+});
 app.listen();
