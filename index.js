@@ -36,4 +36,7 @@ app.get("/send", (req, res) => {
 app.get("/send", (req, res) => {
   res.send("send us page");
 });
+app.get("/send", (req, res) => {
+  res.send("send us page");
+});
 app.listen();
