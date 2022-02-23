@@ -11,7 +11,6 @@ app.get("/about", (req, res) => {
 app.get("/help", (req, res) => {
   res.send("Help page");
 });
-
 app.get("/login", (req, res) => {
   res.send("login page");
 });
@@ -39,4 +38,9 @@ app.get("/send", (req, res) => {
 app.get("/send", (req, res) => {
   res.send("send us page");
 });
-app.listen();
+app.get("/send", (req, res) => {
+  res.send("send us page");
+});
+
+console.log("outpur?");
+app.listen().addListener(3000);
