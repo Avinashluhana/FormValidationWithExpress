@@ -45,6 +45,9 @@ app.get("/send", (req, res) => {
 app.get("/send", (req, res) => {
   res.send("send us page");
 });
+app.get("/send", (req, res) => {
+  res.send("send us page");
+});
 console.log("outpur?");
 console.log("outpur?");
 console.log("outpur?");
